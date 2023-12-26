@@ -1,0 +1,179 @@
+
+body{
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+
+  color: rgb(9, 9, 8);
+}
+section{
+  overflow: hidden;
+  position: relative;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+
+}
+section header{
+ 
+  position: absolute;
+  top: 0%;
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  padding:2px;
+}
+section header ul{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+ 
+}
+section header ul li{
+  list-style: none;
+  margin: 20px;
+}
+section header ul li a{
+  color:rgb(0, 0, 0);
+  text-decoration: none;
+  font-size: 13px;
+
+}
+section header ul li a:hover{
+
+  text-decoration: underline;
+}
+
+
+
+section header ul li button{
+  background-color:#2980b9;
+  font-size: 13px;
+  border: none;
+padding:8px 13px;
+color: white;
+border-radius: 3px;
+cursor: pointer;
+
+}
+section .main{
+  width: 580px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 100px;
+}
+section .main .searchbox{
+  position: relative;
+  width: 100%;
+  margin-top: 20px;
+}
+section .main .searchbox .search{
+  
+  width: 100%;
+  padding: 13px;
+  padding-left: 45px;
+  padding-right:40px;
+  border-radius: 30px;
+  border: 1px solid rgb(3, 3, 3);
+  font-size: 15px;
+}
+section .main .searchbox .icon{
+  position: absolute;
+  top: 0%;
+  width: 100%;
+  display: flex;
+  padding: 12px 20px;
+  justify-content: space-between;
+  align-items: center;
+  pointer-events: none;
+}
+section .main .button{
+  
+  margin-top: 20px;
+}
+section .main .button button{
+  overflow: hidden;
+  margin: 6px 5px;
+  padding: 12px;
+  
+  font-size: 14px;
+  border: none;
+  cursor: pointer;
+  background-color: rgba(87, 86, 86, 0.481);
+  border-radius: 5px;
+  outline: none;
+}
+
+section .main .button button:hover{
+  border: 1px solid rgb(35, 34, 34);
+}
+section .main .searchbox .search:hover{
+  background-color: rgba(81, 81, 82, 0.575);
+  border: none;
+
+}
+section .main .lang{
+  margin-top: 30px;
+}
+section .footer{
+  position:absolute;
+  bottom: 0%;
+  left: 0%;
+  width: 100%;
+  background-color: rgb(169, 168, 168);
+}
+section .footer .row{
+  display: flex;
+  justify-content:space-between;
+  border: 1px solid rgba(0,0, 0,0.05);
+
+}
+section .footer .row ul{
+  display: flex;
+}
+section .footer .row ul li {
+  list-style: none;
+  margin: 10px;
+  
+}
+section .footer .row ul li a{
+  text-decoration: none;
+  color: black;
+}
+.footer .Bangladesh ul li{
+  list-style: none;
+
+}
+
+
+ @media screen and (max-width:440px) {
+  section .main .searchbox .search{
+    width:370px;
+    padding-left:0px;
+    padding-right:10px;
+    margin-left: 20px;
+  }
+  section .main .searchbox .icon{
+    width: 84%;
+    margin-left: 10px;
+
+     
+  }
+  
+  section .footer .row ul{
+    display:flex;
+    flex-direction: column;
+    
+  }
+  
+
+
+ }
+
+         
+# 1st-Google-Project
